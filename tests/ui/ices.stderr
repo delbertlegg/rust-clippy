@@ -6,3 +6,6 @@ error: cannot find macro `fubar!` in this scope
 
 error: aborting due to previous error
 
+thread 'rustc' panicked at 'Box<Any>', /checkout/src/librustc_errors/lib.rs:525:8
+note: Run with `RUST_BACKTRACE=1` for a backtrace.
+thread 'main' panicked at 'rustc_thread failed: Any', /checkout/src/libcore/result.rs:906:4
